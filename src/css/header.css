@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  height: 10vh;
+  background-color: #000;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+header button {
+  padding: 10px;
+  height: 40%;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 20px;
+  border: none;
+  background-color: white;
+  color: #000;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #ffffffe3;
+}
+
+header h1 {
+  color: #fff;
+  margin-left: 1%;
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    width: 100%;
+    height: 15%;
+  }
+}
